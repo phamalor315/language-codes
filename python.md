@@ -51,3 +51,4 @@ def roll_dice():
 result = roll_dice()
 print(f'You rolled a {result}')
 ```
+prompt: ***python code roll a dice 1 to 6 random button, python import random 1 to 6,***
