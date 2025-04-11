@@ -22,7 +22,7 @@ if __name__ == '__main__':
     random_number_generator.random_button()
 ```
 
-prompt: ***python code to number and random 1 to 6 max, random button,***
+prompt: `python code to number and random 1 to 6 max, random button,`
 
 <h2>Python random seed/id</h2>
 
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     random_number = generate_random_number()
     print(random_number)
 ```
-prompt: ***python code to number random 1 to 1000000000000, random button number***
+prompt: `python code to number random 1 to 1000000000000, random button number`
 
 <h2>Python roll a die</h2>
 
@@ -51,4 +51,4 @@ def roll_dice():
 result = roll_dice()
 print(f'You rolled a {result}')
 ```
-prompt: ***python code roll a dice 1 to 6 random button, python import random 1 to 6,***
+prompt: `python code roll a dice 1 to 6 random button, python import random 1 to 6,`
