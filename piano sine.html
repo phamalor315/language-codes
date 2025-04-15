@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Piano</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .key {
+            width: 60px;
+            height: 200px;
+            margin: 5px;
+            border: 1px solid #000;
+            background-color: white;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+        }
+        .key:active {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="key" data-note="261.63">C</div>
+    <div class="key" data-note="293.66">D</div>
+    <div class="key" data-note="329.63">E</div>
+    <div class="key" data-note="349.23">F</div>
+    <div class="key" data-note="392.00">G</div>
+    <div class="key" data-note="440.00">A</div>
+    <div class="key" data-note="493.88">B</div>
+    <div class="key" data-note="523.25">C</div>
+
+    <script>
+        const keys = document.querySelectorAll('.key');
+
+        keys.forEach(key => {
+            key.addEventListener('click', () => {
+                playSound(key.dataset.note);
+            });
+        });
+
+        document.addEventListener('keydown', (event) => {
+            const keyMap = {
+                'q': 'C',
+                'w': 'D',
+                'e': 'E',
+                'r': 'F',
+                't': 'G',
+                'y': 'A',
+                'u': 'B',
+                'i': 'C'
+            };
+            const note = keyMap[event.key];
+            if (note) {
+                const keyElement = Array.from(keys).find(key => key.textContent === note);
+                if (keyElement) {
+                    playSound(keyElement.dataset.note);
+                }
+            }
+        });
+
+        function playSound(frequency) {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            oscillator.type = 'sine';
+            oscillator.frequency.setValueAtTime(frequency, audioContext.currentTime);
+            oscillator.connect(audioContext.destination);
+            oscillator.start();
+            oscillator.stop(audioContext.currentTime + 0.5);
+        }
+    </script>
+</body>
+</html>
