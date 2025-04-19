@@ -1,5 +1,7 @@
 # language-codes
 
+![image](https://github.com/user-attachments/assets/59844545-1b12-45b7-a9e1-4a3c256f3e1b)
+
 # JavaScript
 
 Javascript code with visual code. This code makes a website and more with JavaScript. This JavaScript coding comes with keys and codes. These are JavaScript auto codes. This results in a larger 700 lines of code with JavaScript.
