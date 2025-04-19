@@ -13,7 +13,7 @@ Javascript code with visual code. This code makes a website and more with JavaSc
 
 # Python
 
-`python make ai generated image`, this AI your stable diffusion. text to image or image to image.
+`python make ai generated image`, this AI your stable diffusion. ***text to image** or **image to image***.
 
 ## stable diffusion image
 
