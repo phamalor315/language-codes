@@ -168,3 +168,9 @@ CSS offers a vast palette of techniques beyond the basics.  These are your advan
 ## The Finale: Mastering the Art
 
 CSS is more than just code; it's a creative language. By understanding its fundamental structure and exploring its advanced capabilities, you can orchestrate visually stunning and user-friendly websites, transforming the digital landscape into a harmonious symphony of style and function. Embrace the artistry of CSS and let your creativity flow.
+
+# Python
+- [ ] automatic1111 code python
+- [x] python host
+- [x] marker codes converter
+- [x] windows 11/10
