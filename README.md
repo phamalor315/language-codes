@@ -172,5 +172,5 @@ CSS is more than just code; it's a creative language. By understanding its funda
 # Python
 - [ ] automatic1111 code python
 - [x] python host
-- [x] marker codes converter
+- [x] maker codes converter
 - [x] windows 11/10
