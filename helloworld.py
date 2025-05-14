@@ -39,3 +39,5 @@ loading_bar(5)
 time.sleep(3)
 
 print('Hello, World!')
+
+loading_bar(5)
