@@ -39,4 +39,3 @@ loading_bar(5)
 time.sleep(3)
 
 print('Hello, World!')
-input('Press the spacebar to continue...')
