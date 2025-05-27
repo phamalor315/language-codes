@@ -1,9 +1,6 @@
 # language-codes
 
-```
-git clone https://github.com/phamalor315/language-codes.git
-```
-
+a webpage into the fireworks after clicker
 ![image](https://github.com/user-attachments/assets/59844545-1b12-45b7-a9e1-4a3c256f3e1b)
 
 # JavaScript
